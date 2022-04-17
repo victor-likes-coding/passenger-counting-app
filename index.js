@@ -9,7 +9,7 @@ function increment() {
 }
 
 function updateCount() {
-    countEl.innerHTML = count;
+    countEl.textContent = count;
 }
 
 function reset() {
